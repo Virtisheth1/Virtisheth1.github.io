@@ -5,33 +5,17 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #f8f9fa;
-    padding: 10px;
-}
-
-header nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #333;
-}
-
 #hero {
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #hero img {
-    width: 150px;
+    width: 150px; /* Adjust size as needed */
+    height: auto;
     border-radius: 50%;
-}
-
-.highlight {
-    color: orange;
-}
-
-.social-links a {
-    display: inline-block;
-    margin: 10px;
-    text-decoration: none;
+    margin-bottom: 20px;
 }
